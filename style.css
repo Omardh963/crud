@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #222;
+    font-family: sans-serif;
+    color:#fff;
+}
+.cruds{
+    width:80%;
+    margin:auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin:10px 0;
+}
+input{
+    width:100%;
+    background-color: #111;
+    outline: none;
+    border: none;
+    height:30px;
+    padding:5px;
+    color:#fff;
+    border-radius: 5px;
+    margin:4px 0;
+    transition: 0.5s;
+}
+input:focus{
+    transform: scale(1.1);
+}
+.price input{
+    width:20%;
+    margin:0 5px;
+}
+#total{
+    background-color: red;
+    padding:5px;
+    border-radius: 5px;
+}
+#total::before{
+    content: 'total';
+}
+#submit{
+    width:100%;
+    background-color: #1c0a31;
+    outline: none;
+    border:none;
+    height:28px;
+    color:#fff;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+#submit:hover{
+    background-color: #24024b;
+    letter-spacing: 1.2px;
+}
+.btnsearch{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 40px;
+}
+.btnsearch button{
+    background-color: #160130;
+    outline: none;
+    border:none;
+    padding:5px 10px;
+    border-radius: 6px;
+    color:#fff;
+    transition: 0.5s;
+}
+.btnsearch button:hover
+{
+    transform: scale(1.1);
+    letter-spacing: 1.2px;
+    background-color:#4e08a3;
+}
+#deleteAll{
+    width:100%;
+    background-color: #24024b;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding:6px;
+    margin:10px 0;
+    transition: 0.5s;
+}
+#deleteAll:hover{
+    background-color: #4e08a3;
+    letter-spacing: 1.2px;
+}
+table{
+    width:100%;
+    text-align: center;
+}
+#update,#delete{
+    background-color: #27064e;
+    border:none;
+    outline: none;
+    padding:4px 5px;
+    border-radius: 5px;
+    color:#fff;
+    transition: 0.4s;
+}
+#delete:hover
+{
+    background-color:#4e08a3;
+    letter-spacing: 1.2px;
+}
+#update:hover
+{
+    background-color:#4e08a3;
+    letter-spacing: 1.2px;
+}
+th,td{
+    padding:5px 0
+}
